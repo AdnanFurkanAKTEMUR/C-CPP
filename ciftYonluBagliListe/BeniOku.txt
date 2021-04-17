@@ -1,0 +1,2 @@
+Sayilar.txt dosyasının yolu test.cpp de makefile yani olacak şekilde verdim.
+Sayilar.txt dosyasının her satırının sonunda " " boşluk olmayacak şekilde kodladım. Son elemandan sonra boşluk olmamalı.
