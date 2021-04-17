@@ -1,0 +1,23 @@
+git add .         -> bütün dosyaları ara bölgeye alır.
+git add cıkarma.c -> sadece cıkarma.c ara bölgeye alır
+git status         -> ilk yapilmasi gerekndir değişiklikleri listeler
+
+git commit -m "yazılımcı notu"-> depoya commit eder
+git diff                      -> dosyalardaki değişiklikleri satir satir listeler.
+git diff main.py              -> main sayfasındaki değişiklikleri gösterir.
+
+git diff --staged             -> ara bölge ile git deposu arasındaki farklar.
+git rm main.py                -> siler
+git rm -r klasör/             -> klasörü ve içindekileri siler.
+
+git mv deneme1.txt denem2.txt ->dene1 isminin denem2 olarak değiştirir.
+git mv deneme2.txt klasör/    ->klasöre taşır
+
+/* projeyi git hubu göndermek*/
+git remote add gitHubRepo https.... ->gitHub hesabının linkinin gite gitHubRepo ismi ile tanıtıyoruz.
+git remote -> olup olmadığını kontrol etmek için
+git push -u gitHubRepo master -> tüm dosyaları gitHubu gönderir
+
+git pull githubRepo master -> önce githubtaki master dalındaki dosyaları güncelee
+
+
